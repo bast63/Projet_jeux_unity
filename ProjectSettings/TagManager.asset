@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Goal
+  - Cage
+  - Coin
+  - Enemy
+  - Sol
   layers:
   - Default
   - TransparentFX
