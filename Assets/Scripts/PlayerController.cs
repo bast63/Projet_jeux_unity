@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CoinController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public AudioSource Coin_Audio;
     int coins = 0;
+    public UnityEngine.UI.Text coinsText;
     int currentLevel = 1;
     Rigidbody rb;
     Collider coll;
@@ -82,7 +83,7 @@ public class CoinController : MonoBehaviour
         {
             Coin_Audio.Play();
             coins = coins + 1;
-            ////coinsText.text = "Coins:" + coins;
+            coinsText.text = "Coins:" + coins;
             print("Coins = " + coins);
             // Destroy coin
             Destroy(collider.gameObject);

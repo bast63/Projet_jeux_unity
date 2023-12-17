@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ElevatorScript : MonoBehaviour
+public class Coincontroller : MonoBehaviour
 {
     public float moveSpeed = 2f; // Vitesse de déplacement de l'ascenseur
     public float maxHeight = 5f; // Hauteur maximale de l'ascenseur
