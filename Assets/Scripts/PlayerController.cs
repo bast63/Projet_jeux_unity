@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
     public void NextLevel_2()
     {
-        // change the Level number
+        // Change the Level number
         currentLevel = 2;
         // Load corresponding scene
         SceneManager.LoadScene("Level" + currentLevel);
@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
     public void NextLevel_3()
     {
-        // change the Level number
+        // Change the Level number
         currentLevel = 3;
         // Load corresponding scene
         SceneManager.LoadScene("Level" + currentLevel);
@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
 
     public void NextLevel_4()
     {
-        // change the Level number
+        // Change the Level number
         currentLevel = 4;
         // Load corresponding scene
         SceneManager.LoadScene("Level" + currentLevel);
@@ -143,7 +143,7 @@ public class PlayerController : MonoBehaviour
         // Vérifie si le nombre de pièces est égal à 5
         if (coins == 5)
         {
-            // Fait disparaître l'objet avec le tag "Cage"
+            // Fait disparaître la Cage
             if (Cage != null)
             {
                 Cage.SetActive(false);

@@ -47,9 +47,6 @@ public class GolemController : MonoBehaviour
     // Combat
     void Attack()
     {
-        // Empeche l'ennemi de traverser le joueur
-        //agent.destination = transform.position;
-
         // Si pas de cooldown
         if (Time.time > attackTime)
         {

@@ -558,7 +558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 1051323072}
   chaseRange: 15
-  attackRange: 2.5
+  attackRange: 3
   attackRepeatTime: 1
 --- !u!195 &119560687
 NavMeshAgent:
@@ -6993,7 +6993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 1051323072}
   chaseRange: 15
-  attackRange: 2.5
+  attackRange: 3
   attackRepeatTime: 1
 --- !u!195 &1619051645
 NavMeshAgent:

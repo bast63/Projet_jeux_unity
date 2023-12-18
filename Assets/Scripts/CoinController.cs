@@ -2,11 +2,11 @@
 
 public class Coincontroller : MonoBehaviour
 {
-    public float moveSpeed = 2f; // Vitesse de déplacement de l'ascenseur
-    public float maxHeight = 5f; // Hauteur maximale de l'ascenseur
-    public float minHeight = 0f; // Hauteur minimale de l'ascenseur
+    public float moveSpeed = 2f; // Vitesse de déplacement
+    public float maxHeight = 5f; // Hauteur maximale
+    public float minHeight = 0f; // Hauteur minimale
 
-    private bool isMovingUp = true; // Indique si l'ascenseur monte ou descend
+    private bool isMovingUp = true; // Indique si lec oin monte ou descend
 
     // Update is called once per frame
     void Update()
