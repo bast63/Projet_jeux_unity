@@ -11,7 +11,7 @@ public class Coincontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Déplace l'ascenseur vers le haut ou vers le bas
+        // Déplace le coin vers le haut ou vers le bas
         if (isMovingUp)
         {
             transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
@@ -21,7 +21,7 @@ public class Coincontroller : MonoBehaviour
             transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
         }
 
-        // Vérifie si l'ascenseur atteint la hauteur maximale ou minimale, puis inverse la direction
+        // Vérifie si le coin atteint la hauteur maximale ou minimale, puis inverse la direction
         if (transform.position.y >= maxHeight)
         {
             isMovingUp = false;
